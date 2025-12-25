@@ -18,8 +18,8 @@ import random
 from datetime import datetime
 
 # === CONFIGURATION ===
-TOKEN = 'YOUR TOKEN'  # Keep the quotes
-CHANNEL_ID = 1234567890          # NO quotes (must be numbers)
+TOKEN = 'MTA3OTc0OTkyNDI2NDA5OTg2MQ.GWktG5.9UP6qB4ZoTr0FM5L8jDv0dH1UZmg8aroWLT7jM'  # Keep the quotes
+CHANNEL_ID = 1451648011565404271          # NO quotes (must be numbers)
 COMMAND = "!work"
 # =====================
 
@@ -62,4 +62,5 @@ try:
 except discord.LoginFailure:
     print("Error: The Token you provided is invalid. Please get a fresh token.")
 except Exception as e:
+
     print(f"An unexpected error occurred: {e}")
